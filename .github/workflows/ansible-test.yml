@@ -139,7 +139,7 @@ jobs:
         with:
           ansible-core-version: ${{ matrix.ansible }}
           origin-python-version: 3.11
-          test-python-version: 3.11
+          target-python-version: 3.11
           testing-type: units
           #test-deps: >-
           #  ansible.netcommon
