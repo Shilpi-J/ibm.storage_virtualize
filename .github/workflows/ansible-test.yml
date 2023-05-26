@@ -57,7 +57,7 @@ jobs:
           # ignore.txt file.
           # The commented branches below are EOL,
           # do you really need your collection to support them if it still does?
-          #- stable-2.9 # Only if your collection supports Ansible 2.9
+          - stable-2.9 # Only if your collection supports Ansible 2.9
           - stable-2.10 # Only if your collection supports ansible-base 2.10
           - stable-2.11 # Only if your collection supports ansible-core 2.11
           - stable-2.12
@@ -119,7 +119,7 @@ jobs:
         ansible:
           # The commented branches below are EOL,
           # do you really need your collection to support them if it still does?
-          #- stable-2.9 # Only if your collection supports Ansible 2.9
+          - stable-2.9 # Only if your collection supports Ansible 2.9
           - stable-2.10 # Only if your collection supports ansible-base 2.10
           - stable-2.11 # Only if your collection supports ansible-core 2.11
           - stable-2.12
