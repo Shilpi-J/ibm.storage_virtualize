@@ -131,14 +131,15 @@ jobs:
     steps:
       - name: >- 
           Install paramiko dependency
-        run: pip install paramiko
+        run: python3.11 -m pip install paramiko
       - name: >-
           Perform unit testing against
           Ansible version ${{ matrix.ansible }}
         uses: ansible-community/ansible-test-gh-action@release/v1
         with:
           ansible-core-version: ${{ matrix.ansible }}
-          origin-python-version: 3.9
+          origin-python-version: 3.11
+          test-python-version: 3.11
           testing-type: units
           #test-deps: >-
           #  ansible.netcommon
