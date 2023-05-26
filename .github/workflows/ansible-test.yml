@@ -140,8 +140,8 @@ jobs:
           ansible-core-version: ${{ matrix.ansible }}
           #origin-python-version: 3.9
           #target-python-version: 3.9
-          origin-python-version: default
-          target-python-version: default
+          #origin-python-version: auto
+          #target-python-version: auto
           testing-type: units
           #test-deps: >-
           #  ansible.netcommon
