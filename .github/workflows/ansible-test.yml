@@ -138,8 +138,10 @@ jobs:
         uses: ansible-community/ansible-test-gh-action@release/v1
         with:
           ansible-core-version: ${{ matrix.ansible }}
-          origin-python-version: 3.9
-          target-python-version: 3.9
+          #origin-python-version: 3.9
+          #target-python-version: 3.9
+          origin-python-version: default
+          target-python-version: default
           testing-type: units
           #test-deps: >-
           #  ansible.netcommon
