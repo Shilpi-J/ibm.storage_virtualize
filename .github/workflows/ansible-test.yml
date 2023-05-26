@@ -131,7 +131,7 @@ jobs:
     steps:
       - name: >- 
           Install paramiko dependency
-        run: python3.11 -m pip install paramiko
+        run: pip install paramiko
       - name: >-
           Perform unit testing against
           Ansible version ${{ matrix.ansible }}
