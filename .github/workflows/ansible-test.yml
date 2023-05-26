@@ -177,6 +177,8 @@ jobs:
             python: '2.6'
           - ansible: stable-2.12
             python: '3.6'
+          - ansible: stable-2.12
+            python: '3.7'
           # Python 2.6 is not supported with ansible-core >= 2.13
           - ansible: stable-2.13
             python: '2.6'
