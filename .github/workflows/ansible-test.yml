@@ -142,7 +142,7 @@ jobs:
           testing-type: units
           #test-deps: >-
           #  ansible.netcommon
-          pull-request-change-detection: true
+          #pull-request-change-detection: true
         #run: ansible-test units -v --color --python 3.9 --requirements --coverage
         #working-directory: ./ansible_collections/ibm/storage_virtualize
 
